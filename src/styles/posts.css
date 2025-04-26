@@ -1,0 +1,278 @@
+.post-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.post-card {
+  background-color: #f3e4ae;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.post-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.post-author {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.post-content {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-button,
+.delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button {
+  background-color: #b6877d;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #9d826f;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.create-post {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f3e4ae;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-post h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.create-post .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.create-post label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.create-post input,
+.create-post textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.create-post textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.create-post button {
+  width: 100%;
+  padding: 10px;
+  background-color: #b6877d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-post button:hover {
+  background-color: #9d826f;
+}
+
+.create-post button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #dc3545;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* 新增样式 */
+.posts-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.posts-section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  width: 700px;
+}
+
+.posts-section h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.user-actions {
+  margin-bottom: 2rem;
+}
+
+.create-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #b6877d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.create-button:hover {
+  background-color: #9d826f;
+}
+
+.cancel-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+
+.create-post-container {
+  background-color: #f3e4ae;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.create-post-form input,
+.create-post-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.create-post-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.create-post-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #b6877d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-post-form button:hover {
+  background-color: #9d826f;
+}
+
+.create-post-form button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+  background-color: #f9f4d4;
+  border-radius: 5px;
+  margin-top: 1rem;
+} 
